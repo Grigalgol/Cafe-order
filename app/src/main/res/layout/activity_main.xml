@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/color_light_brown"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
@@ -11,31 +12,50 @@
         android:layout_weight="1"
         android:layout_height="0dp"
         android:contentDescription="@string/logoDescription"
+        android:layout_margin="8dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:textStyle="bold"
         android:layout_height="wrap_content"
-        android:text="@string/welcome" />
+        android:layout_margin="8dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="@string/hint_name" />
+        android:textColorHint="@color/white"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:hint="@string/hint_name"
+        android:textColor="@color/white"/>
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="@string/hint_password"/>
+        android:layout_margin="8dp"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:hint="@string/hint_password"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/button"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/create_order" />
+        android:drawableBottom="#FFFFFF"
+        android:text="@string/create_order"
+        android:textColor="@color/color_dark_brown"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF" />
 </LinearLayout>
