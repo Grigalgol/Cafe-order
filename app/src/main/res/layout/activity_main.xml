@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewLogo"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp"
@@ -16,7 +16,7 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewWelcome"
         android:layout_width="match_parent"
         android:textSize="36sp"
         android:gravity="center"
@@ -49,8 +49,9 @@
         android:textColor="@color/white"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCreateOrder"
         android:layout_margin="8dp"
+        android:onClick="OnClickCrateOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawableBottom="#FFFFFF"
