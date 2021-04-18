@@ -6,4 +6,23 @@
     <string name="hint_password">Введите ваш пароль</string>
     <string name="create_order">Создать заказ</string>
     <string name="toast">Все поля должны быть заполнены!</string>
+    <string name="ChooseDrink">Выберите вид напитка</string>
+    <string name="HelloUser">Что добавить в ваш чай?</string>
+    <string name="Coffe">Кофе</string>
+    <string name="Tea">Чай</string>
+    <string name="Lemon">Лимон</string>
+    <string name="Sugar">Сахар</string>
+    <string name="milk">Молоко</string>
+    <string name="SendOrder">Кнопка отправить заказ</string>
+    <string name="hi">Привет клиент, что будете заказывать?</string>
+    <string-array name="options_of_coffe">
+        <item>Американо</item>
+        <item>Экспрессо</item>
+        <item>Латте</item>
+    </string-array>
+    <string-array name="options_of_tea">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+    </string-array>
 </resources>

@@ -32,6 +32,5 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, R.string.toast, Toast.LENGTH_SHORT).show();
         }
-
     }
 }
