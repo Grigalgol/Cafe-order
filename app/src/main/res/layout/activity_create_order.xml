@@ -32,7 +32,10 @@
         app:layout_constraintEnd_toEndOf="parent">
         <RadioButton
             android:layout_width="wrap_content"
+            android:id="@+id/tea"
             android:layout_margin="8dp"
+            android:checked="true"
+            android:onClick="onClickChangeDrink"
             android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:text="@string/Tea">
@@ -41,7 +44,9 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_margin="8dp"
+            android:id="@+id/coffee"
             android:textColor="@color/white"
+            android:onClick="onClickChangeDrink"
             android:layout_height="wrap_content"
             android:text="@string/Coffe">
 
@@ -147,6 +152,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
+        android:onClick="sendOrder"
         android:contentDescription="@string/SendOrder"
         android:src="@drawable/button"
         app:layout_constraintBottom_toBottomOf="parent"
